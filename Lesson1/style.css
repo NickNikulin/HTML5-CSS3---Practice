@@ -1,0 +1,49 @@
+.header {
+    /* Style for "header-bg" */
+    width: 1280px;
+    height: 323px;
+    background-color: #445162;
+    display: flex;
+}
+
+.logo {
+    /* Style for "Product na" */
+    display: flex;
+    align-content:flex-start; 
+    width: 420px;
+    height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.list {
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    align-content: flex-end;
+    
+   }
+.list li {
+    list-style-image: url(check_icon.png);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/*.rectangle {
+/* Style for "Shape 9" */
+/*display: flex;
+width: 469px;
+height: 214px;
+background-color: #ffffff;
+}
+
