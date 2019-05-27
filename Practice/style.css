@@ -23,12 +23,14 @@
     font-family: "Arial";
     font-size: 20px;
     line-height: 36px;
-    padding-left: 86px;
+    padding-left: 50px;
     padding-right: 20px
     padding-bottom: 30px;
+}
+.header ul li {
     list-style: none;
-    background: url(img/Layer_2.png) left center no-repeat;
-    padding:4px 0 4px 25px;
+    background: url(img/check_icon.png) no-repeat left center;
+    padding: 4px 0 4px 35px;
 }
 
 .rentangle {    
@@ -82,7 +84,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
     .block3 h2 {
@@ -98,21 +100,40 @@
     font-family: "Arial";
     color: #445161;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
+}
+
+.block3 ul li {
     list-style: none;
-    background: url(img/Layer_2.png) left center no-repeat;
-    padding:4px 0 4px 25px;
+    background: url(img/Layer_2%20copy.png) no-repeat left center;
+    padding: 4px 0 4px 35px;
+    flex-grow: 0;
 }
 
 .block3l {
-    padding-left: 50px;
+    flex: 500px;
+    padding-left: 10px;
     padding-right: 20px;
+    padding-bottom: 20px
 }
 
 .block3r {
-    padding-left: 50px;
-    padding-right: 20px;
+    flex: 500px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.scrinsblock {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.scrinsblock ul li {
+    list-style: none;
+    background: url(img/image.png) no-repeat left center;
+    padding: 4px 0 4px 210px;
+    flex-grow: 0;
 
