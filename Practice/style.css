@@ -24,16 +24,16 @@
     font-size: 20px;
     line-height: 36px;
     padding-left: 50px;
-    padding-right: 20px
-    padding-bottom: 30px;
+    padding-right: 20px padding-bottom: 30px;
 }
+
 .header ul li {
     list-style: none;
     background: url(img/check_icon.png) no-repeat left center;
     padding: 4px 0 4px 35px;
 }
 
-.rentangle {    
+.rentangle {
     margin-top: 50px;
     margin-bottom: 59px;
     margin-right: 50px;
@@ -47,8 +47,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
+
 .contanerLeft h2 {
     /* About your product */
     margin-left: 50px;
@@ -60,7 +61,7 @@
 }
 
 .text1 {
-    
+
     padding-left: 50px;
     padding-right: 20px;
     color: #333333;
@@ -87,7 +88,7 @@
     flex-wrap: wrap;
 }
 
-    .block3 h2 {
+.block3 h2 {
     /* Надо посмотреть как центруют коллеги*/
     padding-left: 56px;
     min-width: 100%;
@@ -123,7 +124,8 @@
     padding-right: 50px;
     padding-bottom: 20px;
 }
-.scrinsblock {
+
+.block4 {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -131,9 +133,43 @@
     flex-wrap: wrap;
 }
 
-.scrinsblock ul li {
+.block4 ul {}
+
+.block4l ul li {
     list-style: none;
     background: url(img/image.png) no-repeat left center;
     padding: 4px 0 4px 210px;
     flex-grow: 0;
+    margin-bottom: 20px;
+    font-family: "Arial";
+    color: #445161;
+    font-size: 16px;
+    line-height: 24px;
+}
 
+.block4r ul li {
+    list-style: none;
+    background: url(img/image.png) no-repeat left center;
+    padding: 4px 0 4px 210px;
+    flex-grow: 0;
+    margin-bottom: 20px;
+    font-family: "Arial";
+    color: #445161;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.block41 h2 {
+    padding-left: 56px;
+    min-width: 100%;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+}
+
+.block4r {
+    padding-right: 20px;
+}
+.block4l {
+    padding-right: 20px;
+}
