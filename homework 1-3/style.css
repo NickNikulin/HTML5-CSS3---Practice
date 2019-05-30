@@ -47,10 +47,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    
 }
 
-.contanerLeft h2 {
+.about {
     /* About your product */
     margin-left: 50px;
     margin-top: 50px;
@@ -88,8 +88,9 @@
     flex-wrap: wrap;
 }
 
-.block3 h2 {
+.pluses {
     /* Надо посмотреть как центруют коллеги*/
+    padding-top: 50px;
     padding-left: 56px;
     min-width: 100%;
     color: #445161;
@@ -133,7 +134,13 @@
     flex-wrap: wrap;
 }
 
-.block4 ul {}
+.block4scr {
+    padding-left: 56px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    padding-top: 51px;
+}
 
 .block4l ul li {
     list-style: none;
@@ -159,17 +166,63 @@
     line-height: 24px;
 }
 
-.block41 h2 {
-    padding-left: 56px;
-    min-width: 100%;
-    color: #445161;
-    font-family: "Arial";
-    font-size: 30px;
+.block4l {
+    padding-right: 20px;
+    flex: 500px;
+    padding-left: 10px;
+    padding-right: 50px;
 }
 
 .block4r {
     padding-right: 20px;
-}
-.block4l {
+    flex: 500px;
+    padding-left: 10px;
     padding-right: 20px;
+    padding-bottom: 20px
 }
+
+/* block5 rewiews */ 
+
+.block5 {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reviews {
+color: #445161;
+font-family: "Arial";
+font-size: 30px;
+padding-left: 50px;
+padding-top: 30px;
+}
+
+.block5l {
+    padding-left: 50px;
+    padding-top: 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
