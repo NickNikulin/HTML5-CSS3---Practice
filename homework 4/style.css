@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 /*header*/
 .logo {
     background-image: url(img/logo.png);
@@ -26,36 +27,38 @@
 }
 
 .lozung {
-    
-color: #ffffff;
-font-family: "Myriad Pro";
-font-size: 52px;
-letter-spacing: 2.08px;
-align-self: center;
+
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 52px;
+    letter-spacing: 2.08px;
+    align-self: center;
 }
+
 .search {
     justify-content: flex-start;
     flex-direction: row;
 }
+
 .item-string {
-width: 326px;
-height: 40px;
-background-color: #ffffff;
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
 }
 
 .item-button {
-width: 122px;
-height: 40px;
-background-color: #fd4f32;
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
 }
-    
+
 /*header end*/
 /*content favorite*/
 
 .content1-favorite {
-height: 1534px;
-background-color: #eeeeee;
-display: flex;
+    height: 200px;
+    background-color: #eeeeee;
+    display: flex;
 }
 
 
@@ -72,4 +75,29 @@ h4 {
     position: absolute;
     top: 0;
     left: 40%;
+}
+
+.footer {
+    height: 72px;
+    background-color: #eeeeee;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ffont {}
+
+.menu,
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    width: 80px;
+    height: 10px;
+    color: #323232;
+    font-family: Montserrat;
+    font-size: 12px;
 }
