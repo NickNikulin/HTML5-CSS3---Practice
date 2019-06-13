@@ -56,10 +56,111 @@
 /*content favorite*/
 
 .content1-favorite {
-    height: 200px;
-    background-color: #eeeeee;
+    height: 700px;
     display: flex;
+    flex-direction;
+    flex-wrap;
 }
+
+.item {
+    
+}
+
+.pic1 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_5.png)
+}
+
+.zag1 {
+    /* Style for "Спасо-Прео" */
+height: 28px;
+color: #323232;
+font-family: "Montserrat - Semi Bold";
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "С, пасо-Пр" */
+letter-spacing: 0.24px;
+}
+
+.zagolovok-podpiska {
+    /* Style for "Прежде чем" */
+    width: 545px;
+    height: 48px;
+    color: #323232;
+    font-family: "Myriad Pro";
+    font-size: 52px;
+    font-weight: 400;
+    /* Text style for "Прежде чем" */
+    letter-spacing: 2.08px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.subscribe {
+    display: flex;
+    padding-top: 35px;
+    flex-wrap: wrap;
+}
+
+h3 {
+    /* Style for "Размещение" */
+    height: 15px;
+    color: #323232;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    letter-spacing: 0.32px;
+}
+
+.block1 {
+    flex: 500px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "Если вы хо" */
+    letter-spacing: 0.3px;
+}
+
+.block2 {
+    flex: 500px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "Если вы хо" */
+    letter-spacing: 0.3px;
+
+}
+
+.block3 {
+    flex: 500px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    height: 103px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "Если вы хо" */
+    letter-spacing: 0.3px;
+}
+
 
 
 
@@ -86,7 +187,17 @@ h4 {
 
 }
 
-.ffont {}
+.ffont {
+    /* Style for "Copyright" */
+    height: 12px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "Copyright" */
+    letter-spacing: 0.24px;
+}
 
 .menu,
 ul {
