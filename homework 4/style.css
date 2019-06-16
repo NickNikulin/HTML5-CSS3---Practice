@@ -56,13 +56,20 @@
 /*content favorite*/
 
 .content1-favorite {
-    height: 700px;
+    height: 600px;
     display: flex;
     flex-direction;
-    flex-wrap;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 
 .item {
+    width: 240px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
     
 }
 
@@ -71,6 +78,55 @@
     width: 240px;
     height: 201px;
     background-image: url(img/Layer_5.png)
+}
+
+.pic2 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_6.png)
+}
+
+.pic3 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_8.png)
+}
+
+.pic4 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_7.png)
+}
+
+.pic5 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_12.png)
+}
+
+.pic6 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_13.png)
+}
+
+.pic7 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_14.png)
+}
+
+.pic8 {
+    /* Style for "Layer 5" */
+    width: 240px;
+    height: 201px;
+    background-image: url(img/Layer_15.png)
 }
 
 .zag1 {
@@ -83,6 +139,19 @@ font-weight: 400;
 text-transform: uppercase;
 /* Text style for "С, пасо-Пр" */
 letter-spacing: 0.24px;
+margin-bottom: 19px;
+margin-top: 19px;
+}
+
+.ffont {
+    height: 12px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "Copyright" */
+    letter-spacing: 0.24px;
 }
 
 .zagolovok-podpiska {
@@ -117,7 +186,14 @@ h3 {
     letter-spacing: 0.32px;
 }
 
-.block1 {
+.content2-advantage {
+    padding-top: 15px;
+    margin-top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block_content {
     flex: 500px;
     padding-left: 10px;
     padding-right: 20px;
@@ -130,38 +206,6 @@ h3 {
     /* Text style for "Если вы хо" */
     letter-spacing: 0.3px;
 }
-
-.block2 {
-    flex: 500px;
-    padding-left: 10px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    color: #8b8b8b;
-    font-family: "Open Sans";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 22px;
-    /* Text style for "Если вы хо" */
-    letter-spacing: 0.3px;
-
-}
-
-.block3 {
-    flex: 500px;
-    padding-left: 10px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    height: 103px;
-    color: #8b8b8b;
-    font-family: "Open Sans";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 22px;
-    /* Text style for "Если вы хо" */
-    letter-spacing: 0.3px;
-}
-
-
 
 
 .video {
@@ -185,18 +229,6 @@ h4 {
     display: flex;
     justify-content: space-between;
 
-}
-
-.ffont {
-    /* Style for "Copyright" */
-    height: 12px;
-    color: #8b8b8b;
-    font-family: "Open Sans";
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 22px;
-    /* Text style for "Copyright" */
-    letter-spacing: 0.24px;
 }
 
 .menu,
