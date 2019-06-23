@@ -193,6 +193,19 @@ input {
     letter-spacing: 0.24px;
 }
 
+.fffont {
+    height: 12px;
+    color: #8b8b8b;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "Copyright" */
+    letter-spacing: 0.24px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
 .info {
     display: flex;
     flex-wrap: wrap;
@@ -233,7 +246,6 @@ h3 {
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-
     letter-spacing: 0.32px;
 }
 
